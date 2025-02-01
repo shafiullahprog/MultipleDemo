@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/VideoPlayer/Scenes/VideoController.unity
+    guid: 0dd6953876480134c8e70fe82e7d795b
   m_configObjects: {}
