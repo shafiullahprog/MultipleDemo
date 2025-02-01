@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/VideoPlayer/Scenes/VideoController.unity
     guid: 0dd6953876480134c8e70fe82e7d795b
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/AR_Files/AR_Marker.unity
+    guid: 58bb3600edece3b459c06e07ba57fd08
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 697b4d76567df894ea6196cf0926c575, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 34368137f8c9cd84484212eb52575e4a, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4eebc84e8cff10347b11002f6551d1c5, type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: fa2de17e0836c2f459a88ddffd224b57, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f3a95964ab6b20a4193b7b8ae9d28561, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 496ac0d519b164b408d475f152ce6f3a, type: 2}
